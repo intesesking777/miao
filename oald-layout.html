@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<style>
+    *{background-color:rgba(0,0,0,0.08);}
+    html,body{
+        height: 100%;
+        margin:0
+    }
+
+    div{
+        height: 100%;
+        font-size: 0;    
+    }
+
+div * {
+    font-size: 16px;
+}
+    div > aside{
+        width: 20%;
+        height:100%;
+        display: inline-block;
+        
+    }
+    div > main{
+        width:40%;
+        height:100%;
+        display: inline-block;
+        background-color: yellow;
+        position: relative;
+    }
+
+    .a {background-color:red;}
+
+    .b {background-color: green;}
+
+    .c {background-color:blue;}
+
+    header{
+        background-color: pink;
+        width: 100%;
+    }
+
+    header .placeholder {
+        padding-top:20%;
+    }
+    main .content{
+        top:0;
+        bottom: 0;
+        margin-top:20%;
+        background-color: olive;
+        width:100%;
+        
+        position: absolute;
+    }
+  
+</style>
+<body>
+    <div>
+        <aside class="a"></aside>
+        <main>
+            <header>
+            <div class="placeholder"></div>
+            </header>
+            <div class="content"></div>
+        </main>
+        <aside class="b"></aside>
+        <aside class="c"></aside>
+    </div>
+
+</body>
+</html>
