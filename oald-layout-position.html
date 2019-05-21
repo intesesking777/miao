@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<style>
+
+    * {
+        background-color: grey;
+    }
+
+    html,body {
+        margin: 0;
+        height: 100%;
+        position: relative;
+    }
+
+   .a {
+       top:0;
+       bottom:0;
+       letf:0;
+       display: block;
+       background-color: red;
+       width:20%;
+       position: absolute;
+   }
+    .b {
+        top:0;
+        bottom:0;
+        letf:60%;
+        right:20%;
+        display:inline-block;
+        background-color:blue;
+        width:20%;
+        position: absolute;
+        
+    
+    }
+    .c {
+        top:0;
+        bottom:0;
+        letf:80%;
+        right:0;
+        display:inline-block;
+        background-color: pink;
+        width:20%; 
+        position: absolute;
+    }
+
+    header{
+        top:0;
+        bottom:80%;
+        left:20%;
+        right:40%;
+        width: 40%;
+        position: absolute;
+        background-color:yellow;
+    }
+    .content {
+        top:20%;
+        bottom:0;
+        letf:20%;
+        right:40%;
+        width:40%;
+        position: absolute;
+        background-color: black;
+    }
+
+</style>
+<body>
+    <div>
+        <aside class="a"></aside>
+        <main>
+            <header></header>
+            <div class="content"></div>
+        </main>
+        <aside class="b"></aside>
+        <aside class="c"></aside>
+    </div>
+</body>
+</html>
